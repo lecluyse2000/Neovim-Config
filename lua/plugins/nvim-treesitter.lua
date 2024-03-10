@@ -14,6 +14,7 @@ local config = function()
 			"typescript",
 			"html",
 			"css",
+         "cmake",
          "c",
          "cpp",
 			"bash",
