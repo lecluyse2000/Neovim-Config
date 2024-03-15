@@ -4,7 +4,7 @@ Started from scratch, with help from [this video](https://www.youtube.com/watch?
 I haven't completely decided on my theme yet, although I do really like everforest  
 
 ### Plugins
-[Gruvbox-material](https://github.com/sainnhe/gruvbox-material)
+[Gruvbox-material](https://github.com/sainnhe/gruvbox-material)   
 [Indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)  
 [Lualine-nvim](https://github.com/nvim-lualine/lualine.nvim)  
 [Nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)  
