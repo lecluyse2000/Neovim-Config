@@ -21,7 +21,7 @@ local opts = {
 		lazy = true,
 	},
 	install = {
-		colorscheme = { "everforest" },
+		colorscheme = { "gruvbox-material" },
 	},
 	rtp = {
 		disabled_plugins = {
