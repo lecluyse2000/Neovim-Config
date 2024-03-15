@@ -1,9 +1,9 @@
-# My current neovim config
+## My current neovim config
 Started from scratch, with help from [this video](https://www.youtube.com/watch?v=ZjMzBd1Dqz8&t=5046s) at the start  
 
 I haven't completely decided on my theme yet, although I do really like everforest  
 
-## Plugins
+### Plugins
 [Everforest](https://github.com/sainnhe/everforest)  
 [Indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)  
 [Lualine-nvim](https://github.com/nvim-lualine/lualine.nvim)  
@@ -14,5 +14,5 @@ I haven't completely decided on my theme yet, although I do really like everfore
 [Vim-illuminate](https://github.com/RRethy/vim-illuminate)  
 [Which-key](https://github.com/folke/which-key.nvim)  
 
-## Dependencies
+### Dependencies
 [Ripgrep](https://github.com/BurntSushi/ripgrep)  
