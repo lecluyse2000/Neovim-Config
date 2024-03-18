@@ -18,7 +18,15 @@ opt.hlsearch = false
 opt.number = true
 opt.relativenumber = true
 opt.termguicolors = true
-opt.signcolumn = "yes"
+opt.signcolumn = "auto"
+vim.cmd([[
+   augroup TerminalSettings
+      autocmd!
+      autocmd TermOpen * startinsert
+      autocmd TermOpen * setlocal signcolumn=no
+      autocmd TermOpen * setlocal nonumber norelativenumber
+   augroup END
+]])
 opt.cmdheight = 1
 opt.scrolloff = 10
 opt.completeopt = "menuone,noinsert,noselect"
