@@ -7,10 +7,10 @@ I haven't completely decided on my theme yet, although I do really like everfore
 [Gruvbox-material](https://github.com/sainnhe/gruvbox-material)   
 [Indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)  
 [Lualine-nvim](https://github.com/nvim-lualine/lualine.nvim)  
-[Nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)  
 [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)  
 [Nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)  
-[Telescope](https://github.com/nvim-telescope/telescope.nvim)  
+[Telescope](https://github.com/nvim-telescope/telescope.nvim)   
+[Telescope-file-browser](https://github.com/nvim-telescope/telescope-file-browser.nvim)   
 [Vim-illuminate](https://github.com/RRethy/vim-illuminate)  
 [Which-key](https://github.com/folke/which-key.nvim)  
 
