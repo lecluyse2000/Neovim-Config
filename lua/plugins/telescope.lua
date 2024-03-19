@@ -25,13 +25,22 @@ local config = function()
 				theme = "dropdown",
 				previewer = true,
 			},
+      },
+
+      require("telescope").load_extension "file_browser",
+      extensions = {
+         file_browser = {
+            theme = "dropdown",
+            previewer = true,
+         },
 		},
 	})
 end
 
+
 return {
 	"nvim-telescope/telescope.nvim",
-	tag = "0.1.5",
+	tag = "0.1.6",
 	lazy = false,
 	dependencies = { "nvim-lua/plenary.nvim" },
 	config = config,
@@ -41,5 +50,6 @@ return {
 		mapkey.set("n", "<leader>ff", ":Telescope find_files<CR>"),
 		mapkey.set("n", "<leader>fg", ":Telescope live_grep<CR>"),
 		mapkey.set("n", "<leader>fb", ":Telescope buffers<CR>"),
+      mapkey.set("n", "<leader>fe", ":Telescope file_browser path=%:p:h select_buffer=true<CR>", { noremap = true, silent = true })
 	},
 }
