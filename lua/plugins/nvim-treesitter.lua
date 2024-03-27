@@ -19,8 +19,6 @@ local config = function()
          "cpp",
 			"bash",
 			"lua",
-			"dockerfile",
-			"solidity",
 			"gitignore",
 			"python",
 		},
