@@ -2,8 +2,12 @@
 
 Started from scratch, with help from [this video](https://www.youtube.com/watch?v=ZjMzBd1Dqz8&t=5046s) at the start  
 
-### Plugins
+### Theme   
+
 - [`Gruvbox-material`](https://github.com/sainnhe/gruvbox-material)   
+
+### Plugins
+
 - [`Indent-blankline`](https://github.com/lukas-reineke/indent-blankline.nvim)  
 - [`Lualine-nvim`](https://github.com/nvim-lualine/lualine.nvim)  
 - [`Treesitter`](https://github.com/nvim-treesitter/nvim-treesitter)  
