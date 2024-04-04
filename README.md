@@ -4,8 +4,8 @@ Started from scratch, with help from [this video](https://www.youtube.com/watch?
 
 ### Font    
 
-- [Fira-code](https://github.com/tonsky/FiraCode)
-- I'm tryhing to figure out how to get rid of the ligeratures in Konsole
+- [`Fira-code`](https://github.com/tonsky/FiraCode)
+- I'm trying to figure out how to get rid of the ligeratures in Konsole
 
 ### Theme   
 
