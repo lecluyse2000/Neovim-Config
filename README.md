@@ -2,6 +2,11 @@
 
 Started from scratch, with help from [this video](https://www.youtube.com/watch?v=ZjMzBd1Dqz8&t=5046s) at the start  
 
+### Font    
+
+- [Fira-code](https://github.com/tonsky/FiraCode)
+- I'm tryhing to figure out how to get rid of the ligeratures in Konsole
+
 ### Theme   
 
 - [`Gruvbox-material`](https://github.com/sainnhe/gruvbox-material)   
