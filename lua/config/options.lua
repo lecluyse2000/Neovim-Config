@@ -5,6 +5,7 @@ opt.tabstop = 3
 opt.shiftwidth = 3
 opt.softtabstop = 3
 opt.expandtab = true
+opt.smartindent = true
 opt.wrap = false
 
 -- Search
@@ -17,7 +18,9 @@ opt.hlsearch = false
 opt.number = true
 opt.relativenumber = true
 opt.termguicolors = true
-opt.signcolumn = "auto"
+opt.signcolumn = "number"
+
+-- Temporary setting until I finally get tmux setup
 vim.cmd([[
    augroup TerminalSettings
       autocmd!
@@ -26,8 +29,7 @@ vim.cmd([[
       autocmd TermOpen * setlocal nonumber norelativenumber
    augroup END
 ]])
-opt.cmdheight = 1
-opt.scrolloff = 10
+opt.scrolloff = 8 
 opt.completeopt = "menuone,noinsert,noselect"
 
 -- Behaviour
@@ -40,12 +42,8 @@ opt.undofile = true
 opt.backspace = "indent,eol,start"
 opt.splitright = true
 opt.splitbelow = true
-opt.autochdir = false
 opt.iskeyword:append("-")
-opt.iskeyword:append(".")
 opt.mouse:append("a")
 opt.clipboard:append("unnamedplus")
 opt.modifiable = true
-opt.guicursor =
-	"n-v-c:block,i-ci-ve:block,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
-opt.encoding = "UTF-8"
+opt.guicursor = ""

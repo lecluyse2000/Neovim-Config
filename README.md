@@ -1,7 +1,5 @@
 ## My current neovim config
 
-Started from scratch, with help from [this video](https://www.youtube.com/watch?v=ZjMzBd1Dqz8&t=5046s) at the start  
-
 ### Font    
 
 - [`Fira-code`](https://github.com/tonsky/FiraCode)
