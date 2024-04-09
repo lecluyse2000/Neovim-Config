@@ -8,7 +8,7 @@ local config = function()
          enable = true,
 		},
 		ensure_installed = {
-			"rust",
+			"lua",
 			"json",
 			"javascript",
 			"typescript",
