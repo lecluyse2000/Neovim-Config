@@ -12,6 +12,7 @@ local config = function()
 			"json",
 			"javascript",
 			"typescript",
+         "haskell",
 			"html",
 			"css",
          "cmake",
