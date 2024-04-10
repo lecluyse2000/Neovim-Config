@@ -1,4 +1,6 @@
 local keymap = vim.keymap
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- Directory Navigation
 keymap.set("n", "<leader>bn", ":bnext<CR>", {noremap = true, silent = true})
