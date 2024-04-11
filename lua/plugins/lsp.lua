@@ -45,7 +45,7 @@ return {
 
       require('mason').setup({})
       require('mason-lspconfig').setup({
-         ensure_installed = { "lua_ls", "sqls", "cmake", "autotools_ls" },
+         ensure_installed = { "lua_ls", "sqls", "cmake", "autotools_ls", "clangd" },
          handlers = {
             default_setup,
             lua_ls = function()
