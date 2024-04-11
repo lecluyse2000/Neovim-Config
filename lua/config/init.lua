@@ -24,15 +24,12 @@ local opts = {
 	},
 	rtp = {
 		disabled_plugins = {
-			"gzip",
 			"matchit",
 			"matchparen",
 			"netrw",
 			"netrwPlugin",
-			"tarPlugin",
 			"tohtml",
 			"tutor",
-			"zipPlugin",
 		},
 	},
 	change_detection = {
