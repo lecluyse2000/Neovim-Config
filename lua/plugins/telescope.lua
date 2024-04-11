@@ -1,4 +1,4 @@
-local mapkey = vim.keymap 
+local keymap = vim.keymap 
 
 local config = function()
 	local telescope = require("telescope")
@@ -27,14 +27,22 @@ local config = function()
 			},
       },
 
-      require("telescope").load_extension "file_browser",
       extensions = {
          file_browser = {
             theme = "dropdown",
+            hijack_netrw = true,
             previewer = true,
          },
 		},
 	})
+   local builtin = require('telescope.builtin')
+		keymap.set("n", "<leader>fk", builtin.keymaps, {})
+		keymap.set("n", "<leader>fh", builtin.help_tags, {})
+		keymap.set("n", "<leader>ff", builtin.find_files, {})
+		keymap.set("n", "<leader>fg", builtin.live_grep, {})
+		keymap.set("n", "<leader>fb", builtin.buffers, {})
+      keymap.set("n", "<leader>fe", ":Telescope file_browser path=%:p:h select_buffer=true<CR>", { noremap = true, silent = true })
+   require("telescope").load_extension "file_browser"
 end
 
 
@@ -44,12 +52,4 @@ return {
 	lazy = false,
 	dependencies = { "nvim-lua/plenary.nvim" },
 	config = config,
-   keys = {
-		mapkey.set("n", "<leader>fk", ":Telescope keymaps<CR>"),
-		mapkey.set("n", "<leader>fh", ":Telescope help_tags<CR>"),
-		mapkey.set("n", "<leader>ff", ":Telescope find_files<CR>"),
-		mapkey.set("n", "<leader>fg", ":Telescope live_grep<CR>"),
-		mapkey.set("n", "<leader>fb", ":Telescope buffers<CR>"),
-      mapkey.set("n", "<leader>fe", ":Telescope file_browser path=%:p:h select_buffer=true<CR>", { noremap = true, silent = true })
-	},
 }
