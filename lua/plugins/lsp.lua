@@ -5,7 +5,10 @@ return {
       "williamboman/mason-lspconfig.nvim",
       "hrsh7th/cmp-nvim-lsp",
       "hrsh7th/cmp-buffer",
+      "hrsh7th/cmp-path",
+      "hrsh7th/cmp-cmdline",
       "hrsh7th/nvim-cmp",
+      "saadparwaiz1/cmp_luasnip",
       "L3MON4D3/LuaSnip",
    },
    lazy = false,
@@ -35,7 +38,13 @@ return {
          end
       })
 
-      local lsp_capabilities = require('cmp_nvim_lsp').default_capabilities()
+      local cmp = require('cmp')
+      local cmp_lsp = require("cmp_nvim_lsp")
+      local lsp_capabilities = vim.tbl_deep_extend(
+         "force",
+         {},
+         vim.lsp.protocol.make_client_capabilities(),
+         cmp_lsp.default_capabilities())
 
       local default_setup = function(server)
          require('lspconfig')[server].setup({
@@ -45,7 +54,12 @@ return {
 
       require('mason').setup({})
       require('mason-lspconfig').setup({
-         ensure_installed = { "lua_ls", "sqls", "cmake", "autotools_ls", "clangd" },
+         ensure_installed = {
+            "lua_ls",
+            "sqls",
+            "cmake",
+            "autotools_ls",
+            "clangd" },
          handlers = {
             default_setup,
             lua_ls = function()
@@ -71,13 +85,14 @@ return {
          },
       })
 
-      local cmp = require('cmp')
 
       cmp.setup({
-         sources = {
+         sources = cmp.config.sources({
             { name = 'nvim_lsp' },
+            { name = 'luasnip' }, -- For luasnip users.
+         }, {
             { name = 'buffer' },
-         },
+         }),
          mapping = cmp.mapping.preset.insert({
             -- Enter key confirms completion item
             ['<CR>'] = cmp.mapping.confirm({ select = false }),
