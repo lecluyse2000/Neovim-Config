@@ -62,7 +62,8 @@ return {
             "sqls",
             "cmake",
             "autotools_ls",
-            "clangd" },
+            "clangd",
+            "marksman" },
          handlers = {
             default_setup,
             lua_ls = function()

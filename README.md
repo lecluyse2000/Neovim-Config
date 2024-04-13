@@ -20,6 +20,13 @@
 - [`Vim-illuminate`](https://github.com/RRethy/vim-illuminate)  
 - [`Which-key`](https://github.com/folke/which-key.nvim)  
 
+### LSP   
+
+- [`LSPConfig`](https://github.com/neovim/nvim-lspconfig)    
+- [`Mason`](https://github.com/williamboman/mason.nvim)    
+- [`Nvim-cmp`](https://github.com/hrsh7th/nvim-cmp)    
+- [`LuaSnip`](https://github.com/L3MON4D3/LuaSnip)    
+
 ### Dependencies
 
 - [`Ripgrep`](https://github.com/BurntSushi/ripgrep)  
