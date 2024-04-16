@@ -49,7 +49,7 @@ return {
       local default_setup = function(server)
          require('lspconfig')[server].setup({
             capabilities = lsp_capabilities,
-            on_attach = function(client)
+            on_init = function(client)
                client.server_capabilities.semanticTokensProvider = nil
             end,
          })
@@ -58,6 +58,7 @@ return {
       require('mason').setup({})
       require('mason-lspconfig').setup({
          ensure_installed = {
+            "hls",
             "lua_ls",
             "sqls",
             "cmake",

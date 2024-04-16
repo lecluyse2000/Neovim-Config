@@ -1,5 +1,7 @@
 ## My current neovim config
 
+The goal of this config is to add the most functionality possible with the least amount of plugins
+
 ### Font    
 
 - [`Fira-code`](https://github.com/tonsky/FiraCode)
@@ -12,13 +14,14 @@
 ### Plugins
 
 - [`Undotree`](https://github.com/lukas-reineke/indent-blankline.nvim)    
-- [`Lualine-nvim`](https://github.com/nvim-lualine/lualine.nvim)  
+- [`Lualine`](https://github.com/nvim-lualine/lualine.nvim)  
 - [`Treesitter`](https://github.com/nvim-treesitter/nvim-treesitter)  
 - [`Nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)  
 - [`Telescope`](https://github.com/nvim-telescope/telescope.nvim)   
 - [`Telescope-file-browser`](https://github.com/nvim-telescope/telescope-file-browser.nvim)   
-- [`Vim-illuminate`](https://github.com/RRethy/vim-illuminate)  
-- [`Which-key`](https://github.com/folke/which-key.nvim)  
+- [`Illuminate`](https://github.com/RRethy/vim-illuminate)  
+- [`Which-key`](https://github.com/folke/which-key.nvim)   
+    - This won't be used once I become comfortable with all keybinds
 
 ### LSP   
 
