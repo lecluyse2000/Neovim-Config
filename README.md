@@ -22,6 +22,7 @@ The goal of this config is to add the most functionality possible with the least
 - [`Illuminate`](https://github.com/RRethy/vim-illuminate)  
 - [`Which-key`](https://github.com/folke/which-key.nvim)   
     - This won't be used once I become comfortable with all keybinds
+- [`Trouble`](https://github.com/folke/trouble.nvim)   
 
 ### LSP   
 
