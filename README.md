@@ -1,6 +1,8 @@
 ## My current neovim config
 
-The goal of this config is to add the most functionality possible with the least amount of plugins
+<a href="https://dotfyle.com/lecluyse2000/nvim"><img src="https://dotfyle.com/lecluyse2000/nvim/badges/plugins?style=flat" /></a>
+<a href="https://dotfyle.com/lecluyse2000/nvim"><img src="https://dotfyle.com/lecluyse2000/nvim/badges/leaderkey?style=flat" /></a>
+<a href="https://dotfyle.com/lecluyse2000/nvim"><img src="https://dotfyle.com/lecluyse2000/nvim/badges/plugin-manager?style=flat" /></a>    
 
 ### Font    
 
