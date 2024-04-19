@@ -6,8 +6,7 @@
 
 ### Font    
 
-- [`Fira-code`](https://github.com/tonsky/FiraCode)
-- I'm trying to figure out how to get rid of the ligeratures in Konsole
+- [`FiraMono`](https://www.nerdfonts.com/font-downloads)
 
 ### Theme   
 
