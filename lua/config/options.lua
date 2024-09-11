@@ -1,9 +1,9 @@
 local opt = vim.opt
 
 -- Tab / Indentation
-opt.tabstop = 3
-opt.shiftwidth = 3
-opt.softtabstop = 3
+opt.tabstop = 4
+opt.shiftwidth = 4
+opt.softtabstop = 4
 opt.expandtab = true
 opt.smartindent = true
 opt.wrap = false
@@ -29,7 +29,7 @@ vim.cmd([[
       autocmd TermOpen * setlocal nonumber norelativenumber
    augroup END
 ]])
-opt.scrolloff = 8 
+opt.scrolloff = 8
 opt.completeopt = "menuone,noinsert,noselect"
 
 -- Behaviour
