@@ -58,9 +58,7 @@ return {
       require('mason').setup({})
       require('mason-lspconfig').setup({
          ensure_installed = {
-            "hls",
             "lua_ls",
-            "sqls",
             "cmake",
             "autotools_ls",
             "clangd",
