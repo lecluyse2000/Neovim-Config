@@ -62,7 +62,8 @@ return {
             "cmake",
             "autotools_ls",
             "clangd",
-            "marksman" },
+            "marksman",
+            "pyright" },
          handlers = {
             default_setup,
             lua_ls = function()
