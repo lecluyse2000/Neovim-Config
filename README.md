@@ -6,7 +6,7 @@
 
 ### Font    
 
-- [`FiraMono`](https://www.nerdfonts.com/font-downloads)
+- [`Jetbrains Mono`](https://github.com/lecluyse2000/.dotfiles/blob/main/.wezterm.lua)
 
 ### Theme   
 
