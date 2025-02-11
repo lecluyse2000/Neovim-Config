@@ -14,7 +14,7 @@
 
 ### Plugins
 
-- [`Undotree`](https://github.com/lukas-reineke/indent-blankline.nvim)    
+- [`Undotree`](https://github.com/mbbill/undotree)    
 - [`Lualine`](https://github.com/nvim-lualine/lualine.nvim)  
 - [`Treesitter`](https://github.com/nvim-treesitter/nvim-treesitter)  
 - [`Nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)  
